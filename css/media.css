@@ -1,0 +1,137 @@
+@media (max-width: 1199px){
+    .footer-inner{
+        justify-content: center;
+        grid-gap: 20px;
+        grid-template-columns: auto auto;
+    }
+    .about-us-work-inner,
+    .company-description-inner{
+        grid-template-columns: auto;
+    }
+    .description-text-block{
+        width: auto;
+    }
+    .description-img-block{
+        width: auto;
+    }
+    
+}
+
+@media (max-width: 950px){
+    .service-card-item{
+        grid-template-columns: auto;
+        justify-content: center;
+    }
+    .service__order{
+        order: 1;
+    }
+    .lan-cards{
+        justify-content: center;
+        grid-template-columns: auto;
+    }
+    .about-us-inner{
+        padding: 80px 10px 50px 10px;
+        grid-template-columns: auto;
+    }
+}
+
+
+@media (max-width: 870px){
+    .main-inner{
+        grid-template-columns: auto;
+    }
+    .main-inner__right{
+        grid-row: 1;
+    }
+    .padding-top{
+       padding-top: 20px;
+    }
+    .cards-inner{
+        grid-template-columns: auto auto;
+    }
+}
+
+
+
+
+
+
+@media (max-width: 768px){
+    .menu{
+        display: none;
+    }
+    .menu-burger{
+        display: block;
+    }
+    .tech-logo{
+        width: 80px;
+        height: 80px;
+    }
+    .work-cards{
+        grid-template-columns: auto;
+        gap:0;
+        grid-template-rows: 100px 100px 100px 100px;
+    }
+    .service__items{
+        grid-template-columns: auto;
+        justify-content: center;
+    }
+}
+
+
+@media (max-width: 660px){
+    .service-card-item-img img{
+        width: 100%;
+    }
+    .about-bg{
+        opacity: .5;
+    }
+    .about-us-description-title{
+        font-size: 35px;
+    }
+    .development__title{
+        margin-top: 5px;
+    }
+
+}
+
+
+
+@media (max-width: 400px){
+    .left-btns{
+        display: block;
+    }
+    .left-btn{
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    .cards-inner{
+        grid-template-columns: 1fr;
+    }
+    .cont-form{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .form-btn__margin{
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    .footer-inner{
+        justify-content: center;
+        grid-gap: 20px;
+        grid-template-columns: auto;
+    }
+    .__social-icons{
+        margin-top: 0;
+    }
+    .content-subtitle{
+        font-size: 30px;
+    }
+}
+
+
+@media (max-width: 320px){
+    .development__margin{
+        margin-top: 10px;
+    }
+}
